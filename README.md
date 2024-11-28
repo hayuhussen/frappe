@@ -34,9 +34,12 @@ Follow these steps to set up your Frappe environment:
    git clone https://github.com/hayuhussen/frappe.git
    cd frappe
 2. **Run the Setup Script: Execute the setup script to install dependencies and configure your environment:**
+
+
+   ```bash
       ./setup_frappe.sh
 
-   This script will:
+This script will:
 
     Install necessary packages (Git, Python development tools, Node.js, PostgreSQL, Redis, etc.)
     Set up the Frappe Bench instance.
