@@ -25,6 +25,19 @@ Before you begin, ensure you have met the following requirements:
 - **Redis:** Version 7.x
 - **Git:** Version 2.20 or higher
 
+
+**Key Installation Components**
+
+- Core installations include Git, Python dev tools, PostgreSQL, Redis, Node.js 18.x, and Yarn
+- PostgreSQL is configured with a custom user and database specifically for Frappe
+- Frappe Bench is installed and initialized with version-15 branch
+
+**Configuration and Deployment**
+
+- Sets up multitenancy with PostgreSQL, configures Nginx and Supervisor
+- Creates a new site ([site1.com](http://site1.com)) with PostgreSQL database and default admin credentials
+
+
 ## Installation
 
 Follow these steps to set up your Frappe environment:
